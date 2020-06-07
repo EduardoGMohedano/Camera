@@ -32,7 +32,7 @@ while(True):
     cv2.waitKey(100)
     
     # Display the resulting frame
-    cv2.imshow("images", np.hstack([frame, output]))
+    cv2.imshow("images", np.hstack([frame, frame2]))
     #cv2.imshow('frame',frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
